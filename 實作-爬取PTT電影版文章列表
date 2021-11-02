@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-headers = {'User-Agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36'}
+headers = {'User-Agent' : 'Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36'}
 url = 'https://www.ptt.cc/bbs/movie/index.html'
 
 res = requests.get(url, headers = headers)
